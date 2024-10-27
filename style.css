@@ -1,0 +1,38 @@
+a {
+    font-size: 200px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    
+    
+}
+body {
+    background-image: url(Design\ sem\ nome\ \(4\).png);
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: love Ya Like A Sister;
+}
+body.aaa {
+    font-size: 200px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    animation: fontAnimation 2s infinite;
+   
+}
+@keyframes fontAnimation {
+    0% {
+        transform: scale(1);
+        color: rgb(255, 255, 255);
+    }
+    50% {
+        transform: scale(1.2);
+        color: rgb(255, 255, 255);
+    }
+    100% {
+        transform: scale(1);
+        color: rgb(255, 255, 255);
+    }
+}
